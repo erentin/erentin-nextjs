@@ -13,8 +13,20 @@ const HeroSection = () => {
     const currentHostname = window.location.hostname;
 
     // Dinamik PDF URL'sini oluştur
-    const dynamicPdfFileName = 'eren-tin-english-cv-next-js';
-    const downloadUrl = `http://${currentHostname}/pdfs/${dynamicPdfFileName}.pdf`;
+    useEffect(() => {
+        // Tarayıcı ortamında mı kontrol et
+        if (typeof window !== 'undefined') {
+          // Sayfanın bulunduğu adresi al
+          const currentHostname = window.location.hostname;
+    
+          // Dinamik PDF URL'sini oluştur
+          const dynamicPdfFileName = 'eren-tin-english-cv-next-js';
+          const downloadUrl = `http://${currentHostname}/pdfs/${dynamicPdfFileName}.pdf`;
+    
+          // Şimdi downloadUrl değişkenini kullanabilirsiniz
+          console.log(downloadUrl);
+        }
+      }, []);
 
 
     const handleDownload = () => {

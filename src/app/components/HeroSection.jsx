@@ -8,7 +8,14 @@ const HeroSection = () => {
 
     const [opacity, setOpacity] = useState(0);
     const [direction, setDirection] = useState(1);
-    const downloadUrl = 'http://localhost:3000/pdfs/eren-tin-english-cv-next-js.pdf';
+
+   // Sayfanın bulunduğu adresi al
+    const currentHostname = window.location.hostname;
+
+    // Dinamik PDF URL'sini oluştur
+    const dynamicPdfFileName = 'eren-tin-english-cv-next-js';
+    const downloadUrl = `http://${currentHostname}/pdfs/${dynamicPdfFileName}.pdf`;
+
 
     const handleDownload = () => {
         // Tarayıcıda dosyayı indirmek için bir bağlantı oluşturuluyor ve tıklanıyor.

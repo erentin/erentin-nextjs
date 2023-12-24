@@ -46,7 +46,7 @@ const HeroSection = () => {
         <div className='grid grid-cols-1 lg:grid-cols-12'>
             <div className='col-span-7 place-self-center text-center sm:text-left'>
                 <h1 className='text-white text-4xl lg:text-6xl font-extrabold py-4'>
-                <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-red-600 mb-4'>Hello, I&apos;m </span><br/>
+                <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-red-600 mb-4'>Hello, Im </span><br/>
                     <TypeAnimation
                         sequence={[
                             // Same substring at the start will only be typed out once, initially
@@ -69,7 +69,7 @@ const HeroSection = () => {
                     />
                 </h1>
                     <p className='text-[#ADB7BE] text-base sm:text-lg  lg:text-xl mb-6'>
-                        I hold a bachelor&apos;s degree in Mathematics and Computer Science. 
+                        I hold a bachelors degree in Mathematics and Computer Science. 
                         <br />
                         My proficiency includes PHP, Laravel, Livewire, Tailwind, React.js, and JavaScript.
                 </p>

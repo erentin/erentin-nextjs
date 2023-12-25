@@ -41,7 +41,7 @@ const HeroSection = () => {
 
 
   return (
-    <section>
+    <section className='grid gap-y-6'>
         <div className='grid grid-cols-1 lg:grid-cols-12'>
             <div className='col-span-7 place-self-center text-center sm:text-left'>
                 <h1 className='text-white text-4xl lg:text-6xl font-extrabold py-4'>
@@ -94,6 +94,10 @@ const HeroSection = () => {
             </div>
 
         </div>
+
+
+ 
+      
        
     </section>
   )

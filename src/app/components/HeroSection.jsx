@@ -9,26 +9,6 @@ const HeroSection = () => {
     const [opacity, setOpacity] = useState(0);
     const [direction, setDirection] = useState(1);
 
-   // Sayfanın bulunduğu adresi al
-    const currentHostname = window.location.hostname;
-
-    // Dinamik PDF URL'sini oluştur
-    useEffect(() => {
-        // Tarayıcı ortamında mı kontrol et
-        if (typeof window !== 'undefined') {
-          // Sayfanın bulunduğu adresi al
-          const currentHostname = window.location.hostname;
-    
-          // Dinamik PDF URL'sini oluştur
-          const dynamicPdfFileName = 'eren-tin-english-cv-next-js';
-          const downloadUrl = `http://${currentHostname}/pdfs/${dynamicPdfFileName}.pdf`;
-    
-          // Şimdi downloadUrl değişkenini kullanabilirsiniz
-          console.log(downloadUrl);
-        }
-      }, []);
-
-
     const handleDownload = () => {
         // Tarayıcıda dosyayı indirmek için bir bağlantı oluşturuluyor ve tıklanıyor.
         const link = document.createElement('a');

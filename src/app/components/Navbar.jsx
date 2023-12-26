@@ -7,8 +7,12 @@ import MenuOverlay from './MenuOverlay';
 
 const NavLinks = [
     {
+        title: "Home",
+        path: "/"
+    },
+    {
         title: "Blog",
-        path: "/pages"
+        path: "/blog"
     },
     {
         title: "Clients",
@@ -23,8 +27,6 @@ const NavLinks = [
         path: "contact"
     }
 ]
-
-
 
 const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);

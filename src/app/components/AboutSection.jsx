@@ -2,6 +2,7 @@
 import React, { useTransition, useState } from 'react'
 import Image from 'next/image'
 import TabButton from './TabButton';
+import Button from '@mui/material/Button';
 
 
 const TAB_DATA = [
@@ -9,11 +10,49 @@ const TAB_DATA = [
         title: "Skills",
         id: "skills",
         content: (
-            <ul>
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>PostgreSQL</li>
-            </ul>
+            <ul className='flex gap-5'>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width={40} height={40} />
+              </a>
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width={40} height={40} />
+              </a>
+            </li>
+            <li>
+              <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width={40} height={40} />
+              </a>
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width={40} height={40} />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.php.net/" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" width={40} height={40} />
+              </a>
+            </li>
+            <li>
+              <a href="https://laravel.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg" width={40} height={40} />
+              </a>
+            </li>
+            <li>
+              <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width={40} height={40} />
+              </a>
+            </li>
+            <li>
+              <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" width={40} height={40} />
+              </a>
+            </li>
+          </ul>
+          
         )
     },
     {
@@ -21,7 +60,6 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul>
-                <li>education.js</li>
                 <li>education</li>
                 <li>education</li>
             </ul>
@@ -53,7 +91,9 @@ function AboutSection() {
 
   return (
     <section className="text-white">
-
+        
+        
+          
         <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
             <Image src="/images/hero/eren-tin-php-photo-new.jpg" className='rounded-lg' width={500} height={400}/>
        

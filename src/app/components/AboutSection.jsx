@@ -46,11 +46,11 @@ const TAB_DATA = [
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width={40} height={40} />
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" width={40} height={40} />
               </a>
-            </li>
+            </li> */}
           </ul>
           
         )
@@ -60,8 +60,9 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul>
-                <li>education</li>
-                <li>education</li>
+                <li>
+                <img src="https://www.iku.edu.tr/sagbanner/logo/logofooter.png" alt="Free Code Camp Logo Transparent@pngkey.com" width={100} height={100} />
+                </li>
             </ul>
         )
     },
@@ -69,10 +70,14 @@ const TAB_DATA = [
         title: "Certification",
         id: "certification",
         content: (
-            <ul>
-                <li>certification.js</li>
-                <li>certification</li>
-                <li>certification</li>
+            <ul className='flex gap-5'>
+                <li>
+                    <img src="https://fcccolumbus.com/free-code-camp-logo.svg" alt="Free Code Camp Logo Transparent@pngkey.com" width={60} height={60} />
+                </li>
+                <li>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Linux_Kullan%C4%B1c%C4%B1lar%C4%B1_Derne%C4%9Fi_Logosu.svg" alt="Free Code Camp Logo Transparent@pngkey.com" width={80} height={80} />
+                </li>
+              
             </ul>
         )
     }

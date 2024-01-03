@@ -60,15 +60,17 @@ const projectsData = [
 
 function ProjectsSection() {
   return (
-    <div>
+    <div className='mt-10'>
         <h2 className='font-semibold text-white text-center text-3xl mb-4'>Projects</h2>
         <h3 className='text-white text-center mb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, autem!</h3>
-        <div className='grid  gap-10'>
+        <div className='grid  gap-10 mt-4'>
+
             <ProjectCard imgUrl={'https://images.unsplash.com/photo-1537884944318-390069bb8665?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'} title={"Flowbite's dashboard"} description={'Flowbite helps you connect with friends, family and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups.'}  />
 
-            <ProjectCard imgUrl={'https://images.unsplash.com/photo-1537884944318-390069bb8665?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'} title={'asf'} description={'asfasf'}  />
+            <ProjectCard imgUrl={'https://images.unsplash.com/photo-1537884944318-390069bb8665?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'} title={'Agency Landing Page'} description={'Flowbite helps you connect with friends, family and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups.'}  />
 
-            <ProjectCard imgUrl={'https://images.unsplash.com/photo-1537884944318-390069bb8665?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'} title={'asf'} description={'asfasf'}  />
+            <ProjectCard imgUrl={'https://images.unsplash.com/photo-1537884944318-390069bb8665?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'} title={'Mail management system'} description={'Flowbite helps you connect with friends, family and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups.'}  />
+            
         </div>
     </div>
   )

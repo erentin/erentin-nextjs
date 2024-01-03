@@ -43,7 +43,7 @@ const HeroSection = () => {
   return (
     <section className='grid gap-y-6'>
         <div className='grid grid-cols-1 lg:grid-cols-12'>
-            <div className='col-span-7 place-self-center text-center sm:text-left'>
+            <div className='col-span-7 place-self-center text-center lg:text-left'>
                 <h1 className='text-white text-4xl lg:text-6xl font-extrabold py-4'>
                 <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-red-600 mb-4'>Hello, Im </span><br/>
                     <TypeAnimation

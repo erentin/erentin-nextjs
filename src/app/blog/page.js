@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from 'react';
 import Navbar from '../components/Navbar'
+import Image from 'next/image';
 
 const blog = () => {
 
@@ -60,7 +61,7 @@ const blog = () => {
                 <article class="">
                   <a href="#" class="flex flex-col rounded border bg-white transition hover:bg-gray-200"
                     ><div class="">
-                      <img src="https://componentland.com/images/XpvTA1erbfhbzqnkxEyGX.png" class="w-full object-cover" />
+                      <Image src="https://componentland.com/images/XpvTA1erbfhbzqnkxEyGX.png" class="w-full object-cover" />
                     </div>
                     <div class="flex-1 p-4">
                       <p class="mb-4 text-xs font-bold">{post.main_title}</p>

@@ -42,16 +42,16 @@ const blog = () => {
       <main className="flex justify-center min-h-screen flex-col bg-[#121212]">
         <div className='container mx-auto px-12 py-4 mt-[92px] sm:mt-[0px]'>
 
-          <section class="mx-auto max-w-screen-lg px-4 py-12">
+          <section className="mx-auto max-w-screen-lg px-4 py-12">
 
-            <div class="mb-12 text-center">
+            <div className="mb-12 text-center">
 
-              <div class="mb-6 text-3xl sm:text-5xl font-semibold text-white">Latest Blog Posts</div>
-              <p class="text-white">I am sharing articles on my blog to revisit them in the future myself.</p>
+              <div className="mb-6 text-3xl sm:text-5xl font-semibold text-white">Latest Blog Posts</div>
+              <p className="text-white">I am sharing articles on my blog to revisit them in the future myself.</p>
 
             </div>
 
-            <div class="grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
 
         
             {
@@ -61,17 +61,17 @@ const blog = () => {
               
               (
                 <>
-                  <Link href="#" class="flex flex-col rounded border bg-white transition hover:bg-gray-200"
-                    ><div class="">
+                  <Link href="#" className="flex flex-col rounded border bg-white transition hover:bg-gray-200"
+                    ><div className="">
                       <Image  alt="Picture of the author" src="https://componentland.com/images/XpvTA1erbfhbzqnkxEyGX.png"   fill />
                     </div>
-                    <div class="flex-1 p-4">
-                      <p class="mb-4 text-xs font-bold">{post.main_title}</p>
-                      <h6 class="mb-4 text-xl font-light">{post.topic_title}</h6>
-                      <p class="mb-4 text-xs">{post.created_at_date} - <span class="mb-4 text-xs">{post.created_at_time}</span></p> 
-                      <div class="justify-starts mt-4 flex flex-wrap items-center">
+                    <div className="flex-1 p-4">
+                      <p className="mb-4 text-xs font-bold">{post.main_title}</p>
+                      <h6 className="mb-4 text-xl font-light">{post.topic_title}</h6>
+                      <p className="mb-4 text-xs">{post.created_at_date} - <span className="mb-4 text-xs">{post.created_at_time}</span></p> 
+                      <div className="justify-starts mt-4 flex flex-wrap items-center">
                       {Array.isArray(post.tags) && post.tags.length > 0 ? (
-                      <div class="mr-2 mt-1 rounded-2xl bg-blue-100 py-1.5 px-4 text-xs text-gray-600">#js</div>
+                      <div className="mr-2 mt-1 rounded-2xl bg-blue-100 py-1.5 px-4 text-xs text-gray-600">#js</div>
                       )
                       : (null)
                       }

@@ -15,42 +15,42 @@ const TAB_DATA = [
             <ul className='flex gap-5'>
             <li>
               <Link href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">
-                <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width={40} height={40} />
+                <Image  alt="Picture of the author" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width={40} height={40} />
               </Link>
             </li>
             <li>
               <Link href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer">
-                <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width={40} height={40} />
+                <Image  alt="Picture of the author" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width={40} height={40} />
               </Link>
             </li>
             <li>
               <Link href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">
-                <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width={40} height={40} />
+                <Image  alt="Picture of the author" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width={40} height={40} />
               </Link>
             </li>
             <li>
               <Link href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
-                <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width={40} height={40} />
+                <Image  alt="Picture of the author" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width={40} height={40} />
               </Link>
             </li>
             <li>
               <Link href="https://www.php.net/" target="_blank" rel="noopener noreferrer">
-                <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" width={40} height={40} />
+                <Image  alt="Picture of the author" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" width={40} height={40} />
               </Link>
             </li>
             <li>
               <Link href="https://laravel.com" target="_blank" rel="noopener noreferrer">
-                <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg" width={40} height={40} />
+                <Image  alt="Picture of the author" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg" width={40} height={40} />
               </Link>
             </li>
             <li>
               <Link href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
-                <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width={40} height={40} />
+                <Image  alt="Picture of the author" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width={40} height={40} />
               </Link>
             </li>
             {/* <li>
               <Link href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">
-                <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" width={40} height={40} />
+                <Image  alt="Picture of the author" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" width={40} height={40} />
               </Link>
             </li> */}
           </ul>
@@ -63,7 +63,7 @@ const TAB_DATA = [
         content: (
             <ul>
                 <li>
-                <Image src="https://www.iku.edu.tr/sagbanner/logo/logofooter.png" alt="Free Code Camp Logo Transparent@pngkey.com" width={100} height={100} />
+                <Image  alt="Picture of the author" src="https://www.iku.edu.tr/sagbanner/logo/logofooter.png" alt="Free Code Camp Logo Transparent@pngkey.com" width={100} height={100} />
                 </li>
             </ul>
         )
@@ -74,10 +74,10 @@ const TAB_DATA = [
         content: (
             <ul className='flex gap-5'>
                 <li>
-                    <Image src="https://fcccolumbus.com/free-code-camp-logo.svg" alt="Free Code Camp Logo Transparent@pngkey.com" width={60} height={60} />
+                    <Image  alt="Picture of the author" src="https://fcccolumbus.com/free-code-camp-logo.svg" alt="Free Code Camp Logo Transparent@pngkey.com" width={60} height={60} />
                 </li>
                 <li>
-                    <Image src="https://upload.wikimedia.org/wikipedia/commons/0/08/Linux_Kullan%C4%B1c%C4%B1lar%C4%B1_Derne%C4%9Fi_Logosu.svg" alt="Free Code Camp Logo Transparent@pngkey.com" width={80} height={80} />
+                    <Image  alt="Picture of the author" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Linux_Kullan%C4%B1c%C4%B1lar%C4%B1_Derne%C4%9Fi_Logosu.svg" alt="Free Code Camp Logo Transparent@pngkey.com" width={80} height={80} />
                 </li>
               
             </ul>
@@ -103,7 +103,7 @@ function AboutSection() {
           
         <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
 
-            <Image src="/images/hero/eren-tin-php-photo-new.jpg" className='rounded-lg' width={500} height={400}/>
+            <Image  alt="Picture of the author" src="/images/hero/eren-tin-php-photo-new.jpg" className='rounded-lg' width={500} height={400}/>
 
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                 

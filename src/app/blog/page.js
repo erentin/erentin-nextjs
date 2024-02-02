@@ -63,7 +63,7 @@ const blog = () => {
                 <>
                   <Link href="#" class="flex flex-col rounded border bg-white transition hover:bg-gray-200"
                     ><div class="">
-                      <Image src="https://componentland.com/images/XpvTA1erbfhbzqnkxEyGX.png" alt={"asf"} fill />
+                      <Image  alt="Picture of the author" src="https://componentland.com/images/XpvTA1erbfhbzqnkxEyGX.png"    alt="Picture of the author" fill />
                     </div>
                     <div class="flex-1 p-4">
                       <p class="mb-4 text-xs font-bold">{post.main_title}</p>

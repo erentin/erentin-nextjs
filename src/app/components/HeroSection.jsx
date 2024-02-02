@@ -82,7 +82,7 @@ const HeroSection = () => {
             </div>
             <div className="col-span-5 rounded-full place-self-center mt-4 lg:mt-0 bg-white p-[0.5px]" style={gradientStyle}>
                 <div className='rounded-full bg-[#181818] w-[300px] h-[300px] lg:w-[350px] lg:h-[350px] relative '>
-                    <Image 
+                    <Image  alt="Picture of the author" 
                         src="/images/hero/eren-memoji-png.png"
                         alt='Eren Tin Memoji Image'
                         className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'

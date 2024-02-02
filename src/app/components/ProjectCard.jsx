@@ -22,17 +22,17 @@ function ProjectCard({imgUrl, title, description}) {
               <ul className='flex gap-5'>
                   <li>
                     <Link href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">
-                      <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width={20} height={20} />
+                      <Image  alt="Picture of the author" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width={20} height={20} />
                     </Link>
                   </li>
                   <li>
                     <Link href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer">
-                      <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width={20} height={20} />
+                      <Image  alt="Picture of the author" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width={20} height={20} />
                     </Link>
                   </li>
                   <li>
                     <Link href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">
-                      <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width={20} height={20} />
+                      <Image  alt="Picture of the author" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width={20} height={20} />
                     </Link>
                   </li>
                 </ul>

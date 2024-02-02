@@ -1,7 +1,9 @@
+/* eslint-disable jsx-a11y/alt-text */
 "use client";
 import React, { useTransition, useState } from 'react'
 import Image from 'next/image'
 import TabButton from './TabButton';
+import Link from 'next/link';
 import Button from '@mui/material/Button';
 
 
@@ -12,44 +14,44 @@ const TAB_DATA = [
         content: (
             <ul className='flex gap-5'>
             <li>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width={40} height={40} />
-              </a>
+              <Link href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">
+                <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width={40} height={40} />
+              </Link>
             </li>
             <li>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width={40} height={40} />
-              </a>
+              <Link href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer">
+                <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width={40} height={40} />
+              </Link>
             </li>
             <li>
-              <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width={40} height={40} />
-              </a>
+              <Link href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">
+                <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width={40} height={40} />
+              </Link>
             </li>
             <li>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width={40} height={40} />
-              </a>
+              <Link href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
+                <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width={40} height={40} />
+              </Link>
             </li>
             <li>
-              <a href="https://www.php.net/" target="_blank" rel="noopener noreferrer">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" width={40} height={40} />
-              </a>
+              <Link href="https://www.php.net/" target="_blank" rel="noopener noreferrer">
+                <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" width={40} height={40} />
+              </Link>
             </li>
             <li>
-              <a href="https://laravel.com" target="_blank" rel="noopener noreferrer">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg" width={40} height={40} />
-              </a>
+              <Link href="https://laravel.com" target="_blank" rel="noopener noreferrer">
+                <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg" width={40} height={40} />
+              </Link>
             </li>
             <li>
-              <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width={40} height={40} />
-              </a>
+              <Link href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
+                <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width={40} height={40} />
+              </Link>
             </li>
             {/* <li>
-              <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" width={40} height={40} />
-              </a>
+              <Link href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">
+                <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" width={40} height={40} />
+              </Link>
             </li> */}
           </ul>
           
@@ -61,7 +63,7 @@ const TAB_DATA = [
         content: (
             <ul>
                 <li>
-                <img src="https://www.iku.edu.tr/sagbanner/logo/logofooter.png" alt="Free Code Camp Logo Transparent@pngkey.com" width={100} height={100} />
+                <Image src="https://www.iku.edu.tr/sagbanner/logo/logofooter.png" alt="Free Code Camp Logo Transparent@pngkey.com" width={100} height={100} />
                 </li>
             </ul>
         )
@@ -72,10 +74,10 @@ const TAB_DATA = [
         content: (
             <ul className='flex gap-5'>
                 <li>
-                    <img src="https://fcccolumbus.com/free-code-camp-logo.svg" alt="Free Code Camp Logo Transparent@pngkey.com" width={60} height={60} />
+                    <Image src="https://fcccolumbus.com/free-code-camp-logo.svg" alt="Free Code Camp Logo Transparent@pngkey.com" width={60} height={60} />
                 </li>
                 <li>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Linux_Kullan%C4%B1c%C4%B1lar%C4%B1_Derne%C4%9Fi_Logosu.svg" alt="Free Code Camp Logo Transparent@pngkey.com" width={80} height={80} />
+                    <Image src="https://upload.wikimedia.org/wikipedia/commons/0/08/Linux_Kullan%C4%B1c%C4%B1lar%C4%B1_Derne%C4%9Fi_Logosu.svg" alt="Free Code Camp Logo Transparent@pngkey.com" width={80} height={80} />
                 </li>
               
             </ul>

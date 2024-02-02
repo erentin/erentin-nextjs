@@ -11,30 +11,30 @@ const blog = () => {
   const [posts, setPosts] = useState({});
   
   useEffect(() => {
-    console.log(loading)
-    setLoading(true)
     const fetchData = async () => {
+      setLoading(true); // Veri alımı başladığında loading durumunu true yap
+  
       try {
         const response = await fetch('http://127.0.0.1:8000/api/blog');
         
-        // response.ok kontrolü ile isteğin başarılı olup olmadığını kontrol edebilirsiniz
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
-
+  
         const data = await response.json();
-        setPosts(data.data);
-        console.log(data.data);
+        setPosts(data); // data direkt olarak set ediliyor, data.data değil
+        console.log(data);
       
       } catch (error) {
         console.error('Error fetching data:', error);
+      } finally {
+        setLoading(false); // Veri alımı tamamlandığında loading durumunu false yap
       }
-      
     };
-
-    setLoading(false)
+  
     fetchData();
-  }, []);
+  }, []); // useEffect'in bağımlılık dizisi boş olduğu için sadece bir kere çalışacak
+  
 
   return (
     <>
